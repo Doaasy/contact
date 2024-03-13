@@ -1,0 +1,114 @@
+body{
+    background-color: #d3a6c2;
+}
+.text{
+    font-family: Michroma;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0.05em;
+    width: 360px;
+    height: 55px;
+    top: 1895px;
+    left: 93px;
+    margin-left: 490px;
+    margin-top: 30px;
+        
+}
+.radio-item [type="radio"] {
+	display: none;
+}
+ .radio-item  {
+    display: flex;
+    align-items: center;
+	margin-top: 15px;
+    margin: 30px;
+    margin-left: 170px;
+   
+}
+
+.radio-item label {
+    display: flex;
+    align-items: center;	
+    padding: 20px 60px;
+	background: rgba(217, 217, 217, 1);
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 400;
+	width: 250px;
+	position: relative;
+}
+.radio-item label:after,
+.radio-item label:before {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+    top:20px;
+    margin-left: -40px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000000;
+    background-color: transparent;
+}
+
+  
+  .radio-item input[type=radio]:checked + label:after {
+    content: " ";
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000000;
+    background-color: black
+  }
+
+
+.form-group label {
+    flex-direction: column;
+    margin-bottom: 5px;
+    margin-left:120px;
+    margin-top: 30px;
+   }
+   
+   .form-row {
+     display: flex;
+   }
+   
+   .form-group input {
+     width: 200px;
+     margin-left: 120px;
+     margin-top: 30px;
+     border: none;
+     border-bottom: 1px solid black;
+     background: transparent;
+     outline: none;
+
+   }
+   .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+    margin-left: 70px;
+    width: 50%;
+  }
+
+  .form-group label {
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 250px;
+  }
+  .sub{
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 30px;
+    
+  }
+  .submit{
+
+    width: 100px;
+    height: 40px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
